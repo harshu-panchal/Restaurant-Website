@@ -1,0 +1,51 @@
+.profile-buttons{
+    list-style: none;
+}
+
+.first-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.second-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.buttonn{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 500px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Architects Daughter", serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    cursor: pointer;
+    color: black;
+}
+
+.buttonn:hover{
+    background-color: beige;
+}
+
+
+@media only screen and (max-width: 470px) {
+    .first-row{
+        display: grid;
+        gap: 3%;
+    }
+
+    .second-row{
+        display: grid;
+        gap: 3%;
+        margin-top: 13%;
+    }
+}
