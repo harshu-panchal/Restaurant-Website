@@ -1,0 +1,26 @@
+.aboutus-page{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.about-heading{
+    text-align: center;
+    font-family: "Acme";
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 45px;
+}
+
+.welcome-heading{
+    font-family: "Acme";
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+.para{
+    font-family: "Bellota", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}

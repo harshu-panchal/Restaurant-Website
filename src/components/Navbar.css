@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Agu+Display&display=swap');
+
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    width: 20%;
+}
+
+.image-logo{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.name-restro{
+    font-family: "Agu Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"MORF" 0;
+    font-size: 25px;
+}
+
+.nav-options{
+    display: flex;
+    padding-left: 55%;
+    gap: 10%;
+}
+
+.option{
+    text-decoration: none;
+    color: black;
+    font-family: "Acme";
+    list-style: none;
+    cursor: pointer;
+}
+
+.hm{
+    text-decoration: none;
+
+}

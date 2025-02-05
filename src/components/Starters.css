@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
+.samosa-img {
+    height: 300px;
+    width: 300px;
+}
+
+.leftside-img-div {
+    background-color: yellow;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 50px 50px 50px 50px;
+    margin-left: 10%;
+}
+
+.rightside-img-div {
+    background-color: yellow;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.first-menubox {
+    display: flex;
+
+}
+
+.menu-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40%;
+    width: 70%;
+    list-style: none;
+    margin-left: 2%;
+    font-family: "Coming Soon", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.dish-names {
+    gap: 40%;
+    display: grid;
+}
+
+.dish-names li{
+    width: 150px;
+}
+
+.dish-price {
+    gap: 40%;
+    display: grid;
+}
+
+.second-menubox{
+    display: flex;
+}
+
+.dhokla-img{
+    height: 270px;
+    width: 300px;
+}
+
+
+
+@media only screen and (max-width: 470px) {
+    .side-img{
+        display: none;
+    }
+
+    .second-menubox{
+        margin-top: 15%;
+        margin-bottom: 15%;
+        margin-left: 12%;
+    }
+
+    .leftside-img-div{
+        display: none;
+    }
+
+    .rightside-img-div{
+        display: none;
+    }
+
+    .dish-names li{
+        width: 150px;
+    }
+
+    .starter-page{
+        margin-left: 20%;
+    }
+    
+   
+
+}

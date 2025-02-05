@@ -1,0 +1,82 @@
+@media only screen and (max-width: 470px) {
+
+    /* _________navbar_________ */
+    .navbar {
+        width: 55%;
+    }
+
+
+
+    /* __________HomePage________ */
+
+    .homepage {
+        width: 80%;
+    }
+
+    .banner {
+        width: 100%;
+        margin-top: 5%;
+        height: 100%;
+    }
+
+    .banner-images {
+        height: 200px;
+    }
+
+    .banner-button {
+        margin-left: 26%;
+        margin-top: 3%;
+    }
+
+
+    /* _________Specials________ */
+
+    .special-images {
+        display: grid;
+        gap: 2%;
+    }
+
+    .special-img {
+        border-radius: 50px;
+    }
+
+    .variety-buttons {
+        display: grid;
+        gap: 3%;
+    }
+
+
+    .catagory-buttons {
+        margin-top: 30%;
+    }
+
+    .specials-heading {
+        margin-top: 2%;
+    }
+
+
+    /* ____________Footer_______________ */
+    .footer-container {
+        margin-top: 15%;
+    }
+
+
+    .footer-data {
+        display: grid;
+    }
+
+    .creator-name {
+        margin-top: 30%;
+    }
+
+    /* .second-row {
+        display: none;
+    }
+
+    .profile-buttons {
+        display: none;
+    } */
+
+
+
+}
